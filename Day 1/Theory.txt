@@ -1,0 +1,25 @@
+Q:What is AI?
+Ans:A system that mimics intelligent behaviour like reasoning,
+    decision-making, understanding language etc is known as AI.
+    It is a goal or a destination rather than a specific technique.
+    We use various ways and methods (techniques) to reach there.
+    Example: chess engine using rule-based search
+
+Q:What is Machine Learning?
+Ans:Machine learning is a subset of AI, instead of handing the
+    rules like if marks < 60 flag as fail, we feed the computer 
+    examples (data) to make it learn the pattern and predict failure etc,
+    rather than writing it ourselves.
+    Example: showing it thousands of past students attendance/scores and letting it learn what predicts failing
+    rather than you writing that rule yourself.
+
+Q:What is Deep Learning?
+Ans:The subset of ML which uses neural network to learn from data.
+    it has unstructured data such as images, audio, raw text.
+    This is where ML struggles.
+    Example:face recognition, speech-to-text.
+
+Q:What is Generative AI?
+Ans:The subset that creates new content instead of classifying or predicting.
+    Its mostly built on top of Deep Learning.
+    Example: Creating images, code, text from LLMs such ChatGPT, Claude etc.
