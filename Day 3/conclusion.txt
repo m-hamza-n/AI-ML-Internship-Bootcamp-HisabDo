@@ -1,0 +1,7 @@
+Out of 40 students analyzed, the average final score was 64.3
+and average attendance was 74.9%. 24 student(s)
+had attendance below 75%, and 27 student(s) were flagged as at risk
+of failing (final score below 50 or attendance below 75%). 'AI Fundamentals' had
+the highest overall average score, while 'Web Development' had the lowest. The
+correlation between attendance and final score was -0.02, indicating
+little to no linear relationship - suggesting that attendance alone is not a strong standalone predictor of final performance in this dataset.
