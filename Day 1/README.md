@@ -25,18 +25,3 @@ uv run python "Day 1/grade-calculator.py"
 ```
 
 **Concepts covered:** variables, lists, dictionaries, if/else conditions, loops, functions, user input/output
-
-## Day 2 — Pandas & DataFrames
-
-**Files:**
-- `Day 2/student_analysis.py` — builds a 10-student dataset and converts it into a Pandas 
-  DataFrame, then filters and analyzes it: students with marks above 70, average marks, 
-  highest and lowest scorers (including ties), and total student count
-
-**Run it:**
-```bash
-uv run python "Day 2/student_analysis.py"
-```
-
-**Concepts covered:** Pandas DataFrames, boolean filtering, `.mean()`, `.max()`/`.min()`, 
-DataFrame indexing
