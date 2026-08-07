@@ -1,7 +1,22 @@
-# HisabDo AI/ML Internship Bootcamp
+# AI/ML Internship Bootcamp — HisabDo
 
-AI/ML internship bootcamp covering Python fundamentals, data analysis with Pandas, 
-data visualization, and machine learning with scikit-learn — built day by day from scratch.
+This repository documents my work for the **AI/ML Internship Bootcamp at HisabDo**, 
+a Pakistan-based fintech company behind *HisabDo: Khata & Ledger* — an offline-first 
+digital ledger app for tracking business and personal finances (udhar, receivables, 
+payables, and expense reports).
+
+## About this internship
+
+The bootcamp is structured as a series of daily tasks, progressing from Python 
+fundamentals through data analysis and into applied machine learning (AI/ML)
+
+Each task folder contains its own README with the requirements, files, tech stack, 
+how to run it, and sample output/screenshots for that day.
+
+## My track
+
+AI/ML Track — building each project from scratch, one task at a time, with a focus 
+on actually understanding each concept (not just completing the deliverable).
 
 ## Setup
 
@@ -11,32 +26,11 @@ This project uses [uv](https://github.com/astral-sh/uv) for dependency managemen
 uv sync
 ```
 
-## Day 1 — Python & AI/ML Fundamentals
+## Tech stack
 
-**Files:**
-- `Day 1/Theory.txt` — writeup covering AI, Machine Learning, Deep Learning, and Generative AI, 
-  with a real-world example for each
-- `Day 1/grade-calculator.py` — a Python project that collects student names and marks, 
-  calculates averages, assigns letter grades, and displays a class summary
+Python 3.12 · Pandas · Matplotlib · Scikit-learn · uv
 
-**Run it:**
-```bash
-uv run python "Day 1/grade-calculator.py"
-```
+## Author
 
-**Concepts covered:** variables, lists, dictionaries, if/else conditions, loops, functions, user input/output
-
-## Day 2 — Pandas & DataFrames
-
-**Files:**
-- `Day 2/student_analysis.py` — builds a 10-student dataset and converts it into a Pandas 
-  DataFrame, then filters and analyzes it: students with marks above 70, average marks, 
-  highest and lowest scorers (including ties), and total student count
-
-**Run it:**
-```bash
-uv run python "Day 2/student_analysis.py"
-```
-
-**Concepts covered:** Pandas DataFrames, boolean filtering, `.mean()`, `.max()`/`.min()`, 
-DataFrame indexing
+Muhammad Hamza Nawaz
+[GitHub](https://github.com/m-hamza-n) · [LinkedIn](https://linkedin.com/in/m-hamza-nawaz)

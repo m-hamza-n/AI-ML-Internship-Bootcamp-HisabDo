@@ -1,27 +1,41 @@
-# HisabDo AI/ML Internship Bootcamp
+# Day 1 — Python & AI/ML Fundamentals
 
-AI/ML internship bootcamp covering Python fundamentals, data analysis with Pandas, 
-data visualization, and machine learning with scikit-learn — built day by day from scratch.
+## Overview
+The first task of the bootcamp — building a foundation in core AI/ML concepts 
+and basic Python programming before touching any real datasets or models.
 
-## Setup
+## Requirements
+- Explain what AI, Machine Learning, Deep Learning, and Generative AI are, with a real-world example of each
+- Build a Python project that:
+  - Takes information from the user
+  - Stores it using variables/lists
+  - Uses if/else conditions
+  - Uses a loop
+  - Uses at least one function
+  - Displays the final output
 
-This project uses [uv](https://github.com/astral-sh/uv) for dependency management.
+## What I built
+A **Student Grade Calculator** — takes each student's name and marks in 3 subjects, 
+calculates their average, assigns a letter grade (A/B/C/F) via a dedicated function, 
+and prints a full class summary.
 
-```bash
-uv sync
-```
+## Files
+| File | Description |
+|---|---|
+| `Theory.txt` | Writeup on AI, ML, DL, and Generative AI, each with a real-world example |
+| `grade-calculator.py` | The grade calculator project |
 
-## Day 1 — Python & AI/ML Fundamentals
+## Tech stack
+Python 3.12 (standard library only — no external packages needed)
 
-**Files:**
-- `Day 1/Theory.txt` — writeup covering AI, Machine Learning, Deep Learning, and Generative AI, 
-  with a real-world example for each
-- `Day 1/grade-calculator.py` — a Python project that collects student names and marks, 
-  calculates averages, assigns letter grades, and displays a class summary
-
-**Run it:**
+## How to run
 ```bash
 uv run python "Day 1/grade-calculator.py"
 ```
 
-**Concepts covered:** variables, lists, dictionaries, if/else conditions, loops, functions, user input/output
+## Sample output
+![Day 1 output](output.png)
+
+## What I learned
+Functions and `return` values, list-of-dictionaries as a way to group related records, 
+and using `if/elif/else` chains for classification logic.
